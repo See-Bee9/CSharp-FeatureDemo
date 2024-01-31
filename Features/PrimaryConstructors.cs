@@ -1,4 +1,4 @@
-﻿namespace Feature_Demo
+﻿namespace Feature_Demo.Features
 {
     public class PrimaryConstructors
     {
