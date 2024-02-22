@@ -24,6 +24,7 @@
             return values;
         }
 
+        // To demo, use each method with the memory profiler
         public void Demo(TextWriter outStream)
         {
             var results = WithList(100000007, i => false);

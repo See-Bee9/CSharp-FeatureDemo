@@ -40,6 +40,8 @@
         public void Demo(TextWriter outStream)
         {
             var file = File.ReadAllText(path);
+            
+            // To demo, show DemoSpan and DemoString separately in Memory Profiler. 
 
             // DemoSpan(file);
 
