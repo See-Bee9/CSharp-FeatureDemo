@@ -1,12 +1,10 @@
 ﻿namespace Feature_Demo.Features
 {
-    public record Records(int X, int Y)
-    {
-    }
+    public record Records(int X, int Y);
 
-    public class RecordDemo
+    public class RecordDemo : IDemonstrable
     {
-        public void Demo()
+        public void Demo(TextWriter outStream)
         {
             var r = new Records(420, 69);
             var x = r.X;
