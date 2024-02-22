@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Feature_Demo.Features;
+
+IDemonstrable demonstrable = new Spread();
+
+demonstrable.Demo(Console.Out);
