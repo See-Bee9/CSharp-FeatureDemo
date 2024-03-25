@@ -36,7 +36,7 @@
             }
         }
 
-        public void Demo(TextWriter outStream)
+        public void Demo()
         {
             var file = File.ReadAllText(path);
             
