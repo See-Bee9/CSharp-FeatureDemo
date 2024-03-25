@@ -1,6 +1,6 @@
 ﻿namespace Feature_Demo.Features
 {
-    public class ObjectDeconstruction(int _x, int _y, int _z) : IDemonstrable
+    public class ObjectDeconstruction(int _x, int _y, int _z) 
     {
 
         public void Deconstruct(out int x, out int y, out int z)

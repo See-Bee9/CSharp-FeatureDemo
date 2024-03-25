@@ -2,7 +2,7 @@
 {
     public record Records(int X, int Y);
 
-    public class RecordDemo : IDemonstrable
+    public class RecordDemo
     {
         public void Demo(TextWriter outStream)
         {

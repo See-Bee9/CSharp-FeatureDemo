@@ -1,12 +1,12 @@
 ﻿namespace Feature_Demo.Features
 {
-    public class Yield : IDemonstrable
+    public class Yield
     {
         private IEnumerable<int> WithYield(int count, Predicate<int> exitWhen)
         {
             for (var i = 0; i < count; i++)
             {
-                if(exitWhen(i)) yield break;
+                if (exitWhen(i)) yield break;
                 yield return i;
             }
         }

@@ -1,9 +1,8 @@
 ﻿namespace Feature_Demo.Features
 {
-    public class SpanT : IDemonstrable
+    public class SpanT 
     {
         private string path = @"./dates.txt";
-
 
         private static DateTime GetPurchaseDateWithSpan(string fileString, int start)
         {

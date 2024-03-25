@@ -1,6 +1,6 @@
 ﻿namespace Feature_Demo.Features
 {
-    public class Spread : IDemonstrable
+    public class Spread
     {
         private void Print(TextWriter writer, string prefix, int[] array)
         {

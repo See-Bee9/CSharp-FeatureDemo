@@ -1,6 +1,6 @@
 ﻿namespace Feature_Demo.Features
 {
-    public class LocalFunctions : IDemonstrable
+    public class LocalFunctions 
     {
         public void Demo(TextWriter outStream)
         {
@@ -15,7 +15,6 @@
 
             void PrintRandomNumber() 
                 => outStream.WriteLine(number);
-
 
         }
     }
